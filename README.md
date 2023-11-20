@@ -1,4 +1,4 @@
-# Spring-Project-방구석 랜선여행
+# awesome_trip 방구석 랜선여행
 스프링 + JSP_여행 예약 사이트
 
 ## 🖥️ 프로젝트 소개
