@@ -1,0 +1,18 @@
+-- 데이터베이스 만들기
+create database spring;
+
+-- 데이터베이스 사용
+use spring;
+
+-- 테이블 만들기
+create table contact (
+	bno int(11) auto_increment primary key,
+   	title varchar(200),
+    content text,
+    writer varchar(20),
+   	regdate timestamp default now(),
+   	viewcnt int(4) default 0
+);
+
+-- 테이블 조회
+select * from contact;
